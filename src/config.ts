@@ -276,6 +276,66 @@ export const COUNTRIES:
     zoom:
       6
 
-  }
+  },
 
+
+  // ==================================================
+  // Bolivia
+  // ==================================================
+
+  bolivia: {
+
+    name:
+      "Bolivia",
+
+    fieldsUrl:
+      "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Bolivia_thematic_disagreements/FeatureServer/1",
+
+    pointsUrl:
+      "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Bolivia_thematic_disagreements/FeatureServer/0",
+
+    imagery: {
+
+      provider:
+        "planet",
+
+      seasons: [
+
+        {
+          name:
+            "Bolivia Agricultural Season",
+
+          start:
+            "2023-10-01",
+
+          end:
+            "2024-05-31"
+        }
+
+      ],
+
+      wayback: {
+
+        name:
+          "2024-10-10 Wayback",
+
+        date:
+          "2024-10-10",
+
+        url:
+          "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/56450/{level}/{row}/{col}"
+
+      }
+
+    },
+
+    center: [
+      -78.5,
+      -1.5
+    ],
+
+    zoom:
+      6
+
+  }
 };
