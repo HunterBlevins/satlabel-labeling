@@ -317,13 +317,13 @@ export const COUNTRIES:
       wayback: {
 
         name:
-          "2024-10-10 Wayback",
+          "2024-09-19 Wayback",
 
         date:
-          "2024-10-10",
+          "2024-09-19",
 
         url:
-          "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/56450/{level}/{row}/{col}"
+          "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/20337/{level}/{row}/{col}"
 
       }
 
