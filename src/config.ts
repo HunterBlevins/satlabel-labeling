@@ -337,5 +337,66 @@ export const COUNTRIES:
     zoom:
       6
 
-  }
+  },
+
+  // ==================================================
+  // Paraguay
+  // ==================================================
+
+  paraguay: {
+
+    name:
+      "Paraguay",
+
+    fieldsUrl:
+      "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Paraguay_thematic_disagreements/FeatureServer/1",
+
+    pointsUrl:
+      "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Paraguay_thematic_disagreements/FeatureServer/0",
+
+    imagery: {
+
+      provider:
+        "planet",
+
+      seasons: [
+
+        {
+          name:
+            "Paraguay Agricultural Season",
+
+          start:
+            "2023-07-01",
+
+          end:
+            "2024-06-30"
+        }
+
+      ],
+
+      wayback: {
+
+        name:
+          "2024-09-19 Wayback",
+
+        date:
+          "2024-09-19",
+
+        url:
+          "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/20337/{level}/{row}/{col}"
+
+      }
+
+    },
+
+    center: [
+      -58.4,
+      -23.4
+    ],
+
+    zoom:
+      6
+
+  },
+
 };
