@@ -399,4 +399,126 @@ export const COUNTRIES:
 
   },
 
+
+  // ==================================================
+  // Guianas
+  // ==================================================
+
+  guianas: {
+
+    name:
+      "Guianas",
+
+    fieldsUrl:
+      "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Guianas_thematic_disagreements/FeatureServer/1",
+
+    pointsUrl:
+      "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Guianas_thematic_disagreements/FeatureServer/0",
+
+    imagery: {
+
+      provider:
+        "planet",
+
+      seasons: [
+
+        {
+          name:
+            "Uruguay Agricultural Season",
+
+          start:
+            "2024-01-01",
+
+          end:
+            "2024-11-30"
+        }
+
+      ],
+
+      wayback: {
+
+        name:
+          "2024-09-19 Wayback",
+
+        date:
+          "2024-09-19",
+
+        url:
+          "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/20337/{level}/{row}/{col}"
+
+      }
+
+    },
+
+    center: [
+      -58.8,
+       4.5
+    ],
+
+    zoom:
+      6
+
+  },
+
+/*
+  // ==================================================
+  // Chile
+  // ==================================================
+
+  chile: {
+
+    name:
+      "Chile",
+
+    fieldsUrl:
+      "",
+
+    pointsUrl:
+      "",
+
+    imagery: {
+
+      provider:
+        "planet",
+
+      seasons: [
+
+        {
+          name:
+            "Chile Agricultural Season",
+
+          start:
+            "2023-07-01",
+
+          end:
+            "2024-04-30"
+        }
+
+      ],
+
+      wayback: {
+
+        name:
+          "2024-09-19 Wayback",
+
+        date:
+          "2024-09-19",
+
+        url:
+          "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/20337/{level}/{row}/{col}"
+
+      }
+
+    },
+
+    center: [
+      -71,
+      -30
+    ],
+
+    zoom:
+      6
+
+  },
+*/
 };
