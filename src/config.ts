@@ -460,7 +460,7 @@ export const COUNTRIES:
 
   },
 
-/*
+
   // ==================================================
   // Chile
   // ==================================================
@@ -471,10 +471,10 @@ export const COUNTRIES:
       "Chile",
 
     fieldsUrl:
-      "",
+      "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Chile_thematic_disagreements/FeatureServer/1",
 
     pointsUrl:
-      "",
+      "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Chile_thematic_disagreements/FeatureServer/0",
 
     imagery: {
 
@@ -520,5 +520,5 @@ export const COUNTRIES:
       6
 
   },
-*/
+
 };
