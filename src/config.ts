@@ -521,4 +521,126 @@ export const COUNTRIES:
 
   },
 
+
+  // ==================================================
+  // Uruguay
+  // ==================================================
+
+  uruguay: {
+
+    name:
+      "Uruguay",
+
+    fieldsUrl:
+      "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Uruguay_thematic_disagreements/FeatureServer/1",
+
+    pointsUrl:
+      "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Uruguay_thematic_disagreements/FeatureServer/0",
+
+    imagery: {
+
+      provider:
+        "planet",
+
+      seasons: [
+
+        {
+          name:
+            "Uruguay Agricultural Season",
+
+          start:
+            "2023-07-01",
+
+          end:
+            "2024-05-31"
+        }
+
+      ],
+
+      wayback: {
+
+        name:
+          "2024-09-19 Wayback",
+
+        date:
+          "2024-09-19",
+
+        url:
+          "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/20337/{level}/{row}/{col}"
+
+      }
+
+    },
+
+    center: [
+      -71,
+      -30
+    ],
+
+    zoom:
+      6
+
+  },
+
+
+  // ==================================================
+  // Peru
+  // ==================================================
+
+  peru: {
+
+    name:
+      "Peru",
+
+    fieldsUrl:
+      "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Peru_thematic_disagreements/FeatureServer/1",
+
+    pointsUrl:
+      "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Peru_thematic_disagreements/FeatureServer/0",
+
+    imagery: {
+
+      provider:
+        "planet",
+
+      seasons: [
+
+        {
+          name:
+            "Peru Agricultural Season",
+
+          start:
+            "2023-10-01",
+
+          end:
+            "2024-09-30"
+        }
+
+      ],
+
+      wayback: {
+
+        name:
+          "2024-09-19 Wayback",
+
+        date:
+          "2024-09-19",
+
+        url:
+          "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/20337/{level}/{row}/{col}"
+
+      }
+
+    },
+
+    center: [
+      -75,
+      -9.2
+    ],
+
+    zoom:
+      6
+
+  },
+
 };
