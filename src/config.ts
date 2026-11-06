@@ -643,4 +643,66 @@ export const COUNTRIES:
 
   },
 
+
+  /*
+  // ==================================================
+  // Brazil
+  // ==================================================
+
+  brazil: {
+
+    name:
+      "Brazil",
+
+    fieldsUrl:
+      "/1",
+
+    pointsUrl:
+      "/0",
+
+    imagery: {
+
+      provider:
+        "planet",
+
+      seasons: [
+
+        {
+          name:
+            "Brazil Agricultural Season",
+
+          start:
+            "2023-07-01",
+
+          end:
+            "2024-05-31"
+        }
+
+      ],
+
+      wayback: {
+
+        name:
+          "2024-09-19 Wayback",
+
+        date:
+          "2024-09-19",
+
+        url:
+          "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/20337/{level}/{row}/{col}"
+
+      }
+
+    },
+
+    center: [
+      -52,
+      -10
+    ],
+
+    zoom:
+      6
+
+  },*/
+
 };
