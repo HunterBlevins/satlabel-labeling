@@ -644,7 +644,7 @@ export const COUNTRIES:
   },
 
 
-  /*
+  
   // ==================================================
   // Brazil
   // ==================================================
@@ -655,10 +655,10 @@ export const COUNTRIES:
       "Brazil",
 
     fieldsUrl:
-      "/1",
+      "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Brazil_thematic_disagreements/FeatureServer/1",
 
     pointsUrl:
-      "/0",
+      "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Brazil_thematic_disagreements/FeatureServer/0",
 
     imagery: {
 
@@ -703,6 +703,6 @@ export const COUNTRIES:
     zoom:
       6
 
-  },*/
+  },
 
 };
